@@ -1,0 +1,25 @@
+
+═══════════════════════════════════════════════
+      FURY · Click Hero — Relatório de Carga
+═══════════════════════════════════════════════
+
+  Período:          9s
+  Média:            111 req/s
+
+── Requisições ───────────────────────────────
+
+  Total:            1000
+  202 (aceito):     524
+  400 (inválido):   476
+  404 (não encont.) 0
+  Outros:           0
+
+── Jobs ──────────────────────────────────────
+
+  Total enfileirados:  524
+  Consultados:         50
+  ├─ completed:        0
+  ├─ failed:           0
+  ├─ waiting:          0
+  └─ active:           0
+

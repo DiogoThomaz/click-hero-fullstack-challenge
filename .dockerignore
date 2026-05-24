@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.git/
+.opencode/node_modules/
+.env
+.env.local
+relatorio-carga.txt
+npm-debug.log

@@ -1,0 +1,35 @@
+{
+  "name": "click-hero-fury",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "start": "node dist/main.js",
+    "build": "tsc",
+    "lint": "biome check src/",
+    "lint:fix": "biome check --apply src/",
+    "format": "biome format --write src/",
+    "start:worker": "node dist/worker.js",
+    "test:e2e": "node scripts/test-api.js",
+    "test:carga": "bash scripts/teste-carga.sh",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "@bull-board/api": "^7.1.5",
+    "@bull-board/express": "^7.1.5",
+    "bullmq": "^5.34.10",
+    "express": "^4.21.2",
+    "ioredis": "^5.6.0",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/express": "^5.0.4",
+    "@types/node": "^22.15.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vitest": "^3.1.2"
+  }
+}
