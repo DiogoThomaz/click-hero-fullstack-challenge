@@ -368,6 +368,24 @@ Resultados esperados:
 - `GET /jobs/:id` — status do job atualizado pelo Worker
 - Teste de carga — 1000 requisições, 0 erros inesperados
 
+Resultado da execução de carga em 24/05/2026 (`npm run test:carga`):
+
+- Período: 9s
+- Média: 111 req/s
+- Total de requisições: 1000
+- `202 (aceito)`: 499
+- `400 (inválido)`: 501
+- `404 (não encontrado)`: 0
+- Outros status: 0
+- Jobs enfileirados: 499
+- Jobs consultados: 49
+- Jobs `waiting`: 46
+- Jobs `active`: 0
+- Jobs `completed`: 0
+- Jobs `failed`: 0
+- Jobs `missing`: 3
+- Jobs `unknown`: 0
+
 ---
 
 ## Limitações intencionais
