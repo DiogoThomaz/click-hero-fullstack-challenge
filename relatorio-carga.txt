@@ -9,17 +9,19 @@
 ── Requisições ───────────────────────────────
 
   Total:            1000
-  202 (aceito):     524
-  400 (inválido):   476
+  202 (aceito):     499
+  400 (inválido):   501
   404 (não encont.) 0
   Outros:           0
 
 ── Jobs ──────────────────────────────────────
 
-  Total enfileirados:  524
-  Consultados:         50
+  Total enfileirados:  499
+  Consultados:         49
   ├─ completed:        0
   ├─ failed:           0
-  ├─ waiting:          0
-  └─ active:           0
+  ├─ waiting:          46
+  ├─ active:           0
+  ├─ missing:          3
+  └─ unknown:          0
 
